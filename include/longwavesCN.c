@@ -131,7 +131,7 @@ int main(int argc, char *argv[argc]){
 	vector x = linspace(0.0, p.L, n);
 	double dx = p.L/(n+1);
 	double Tps = p.genwaves*p.wL/sqrt(p.g*Depth(0));
-	int T=10000;
+	int T=1000;
 	double dt=1.0/T;
 	double t=0;
 
